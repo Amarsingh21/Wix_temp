@@ -1,0 +1,136 @@
+.indexFooter{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(4, 34, 63);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border-top-left-radius: 20%;
+    border-top-right-radius: 20%; */
+    position: relative;
+    z-index: -1;
+}
+.indexFooterText{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    column-gap: 100px;
+    margin-top: 100px;
+}
+.indexFooterPrimery{
+    width: 100%;
+    height: auto;
+}
+.indexFootrLogo{
+    height: 50px;
+}
+.indexFooterTitle{
+    font-size: 20px;
+    margin: 50px 0 30px 0;
+}
+.indexFooterPrimeryGroupText{
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.indexFooterSecondery{
+    width: 100%;
+    height: auto;
+    margin-top: -90px;
+}
+.indexFooterSeconderyItems{
+    width: 100%;
+    height: auto;
+}
+.indexFooterSeconderTitle{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.indexFooterSeconderyGroupText{
+    font-size: 18px;
+    margin: 40px 0 40px 0;
+}
+.indexFooterSeconderyDownload{
+    width: 100%;
+}
+.indexFooterSeconderyDownloadTitle{
+    font-size: 25px;
+    margin: 20px 0 20px 0;
+}
+.downloadPicture{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 30px;
+
+}
+.downloadPicture img{
+    width: 120px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid white;
+}
+
+.indexFooterThird{
+    width: 100%;
+    height: auto;
+}
+.indexFooterThirdItems{
+    width: 100%;
+}
+.indexFooterThirdTitle{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.indexFooterThirdGroupText{
+    font-size: 18px;
+    
+}
+.indexFooterThirdSocicalIcon{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    column-gap: 20px;
+    margin-top: 100px;
+}
+.messageTexts{
+    width: 90%;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 0 30px 30px 0;
+    position: relative;
+}
+.messageText{
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    background-color: rgb(12, 88, 46);
+    border-radius: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; 
+}
+.copyright{
+    width: 100%;
+    height: 200px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 30px 0 0 0;
+}

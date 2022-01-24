@@ -1,0 +1,211 @@
+.indexHome{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.indexHomeItems{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.indexHomeInfo{    
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.indexHomeInfoTitles{   
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.indexHomeInfoTitle{
+    font-size: 60px;
+    font-weight: 600;
+    color: #099e5d;
+    text-align: center;
+}
+.indexHomeInfoText{
+    font-size: 20px;
+    color: rgb(19, 18, 18);
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+.indexHomeInfoBtn{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+    column-gap: 50px;
+}
+.indexHomeInfoBtnDemo button{
+    width: 150px;
+    height: 50px;
+}
+.indexHomeInfoBtnfree button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(2, 2, 75);
+    color: white;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+}
+button:hover {
+    background-color: rgb(170, 226, 236);
+    cursor: pointer;
+    color: black;
+}
+.indexHomeIcon{    
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.indexHomeIcon img{
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     z-index: -1;
+}
+.indexHomeIconTitle{
+    margin: 400px 0 0 180px;
+}
+.iconMark{
+    width: 230px;
+    height: 40px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    column-gap: 20px;
+}
+.iconMarkIcon{
+    font-size: 25px;
+    color: green;
+}
+.iconMarkIconText{
+    font-size: medium;
+}
+.iconLou{   
+    width: 230px;
+    height: 40px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    column-gap: 20px;
+    margin: 30px 0 30px 0;
+}
+.iconLouIcon{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 100%;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconLouIcon img{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    z-index: 1;
+}
+.iconLouIconText{ 
+    font-size: medium;
+}
+
+.iconFollows{
+    width: 230px;
+    height: 40px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    column-gap: 20px;
+    margin: 40px 0 0 150px;
+}
+.iconFollowIcon{  
+    font-size: 25px;
+    color: green;
+}
+.iconFollowIconText{ 
+    font-size: medium;
+}
+
+.indexImages{
+    width: 100%;
+    height: 500px;
+    background-color: lightgoldenrodyellow;
+    position: relative;
+    padding-bottom: 100px;
+}
+.imageBottom{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+}
+.imageBottom img{  
+    width: 500px;
+    height: 350px;
+    margin: -100px 0 0 200px;
+}
+.imageTop{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.imageTop img{   
+    width: 500px;
+    height: 350px;
+    margin: 70px 0 0 0px;
+    z-index: 3;
+    box-shadow: 1px 5px 10px rgb(238, 237, 237);
+}
+.imageBottoms{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.imageBottoms img{ 
+    width: 500px;
+    height: 350px;
+    margin: 200px 0 0 430px;
+    z-index: 2;
+}
